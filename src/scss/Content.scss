@@ -1,0 +1,102 @@
+.content-container{
+    width: 500px;
+
+    .company-name{
+        color: hsl(26, 100%, 55%);
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+    .item-name{
+        margin-top: 10px;
+        margin-bottom: 30px;
+
+        font-weight: 700;
+        font-size: 40px;
+    }
+
+    .description{
+        color: hsl(219, 9%, 45%);
+        margin-bottom: 20px;
+
+        line-height: 26px;
+        word-spacing: 4px;
+    }
+
+    .price{
+        margin-bottom: 30px;
+
+        .new-price{
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+
+            .discount{
+                margin-left: 20px;
+
+                color: hsl(26, 100%, 55%);
+                background-color: hsl(25, 100%, 94%);
+
+                font-weight: 700;
+                font-size: 18px;
+
+                padding: 5px 10px;
+                border-radius: 5px;
+            }
+        }
+
+        .old-price{
+            color: hsl(220, 14%, 75%);
+            font-weight: 700;
+            text-decoration: line-through;
+        }
+    }
+
+    .purchasing-funct{
+        display: flex;
+        height: 60px;
+        gap: 20px;
+
+        .quantity{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+
+            background-color: hsl(223, 64%, 98%);
+            border-radius: 10px;
+
+            width: 170px;
+
+            .number{
+                font-weight: 700;
+                font-size: 18px;
+            }
+
+            .icon:hover{
+                cursor: pointer;
+            }
+        }
+        .purchase-btn{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+
+            color: white;
+            font-weight: 700;
+
+            box-shadow: 0 0 10px hsl(25, 100%, 94%), 0 0 20px hsl(25, 100%, 94%), 0 0 30px hsl(25, 100%, 94%);
+            background-color: hsl(26, 100%, 55%);
+            border-radius: 10px;
+
+            width: 260px;
+        }
+
+        .purchase-btn:hover{
+            cursor: pointer;
+        }
+    }
+}

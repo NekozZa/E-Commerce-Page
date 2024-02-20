@@ -1,0 +1,46 @@
+.img-container{
+
+    img{
+        border-radius: 10px;
+    }
+
+    .main-img{
+        width: 500px;
+        height: auto;
+
+        margin-bottom: 20px;
+    }
+
+    .main-img:hover{
+        cursor: pointer;
+    }
+
+    .sub-img-list{
+        display: flex;
+        gap: 33px;
+
+        list-style: none;
+
+        .img-item{
+            width: 100px;
+            height: auto;
+        }
+
+        .img-item:hover{
+            opacity: 50%;
+            cursor: pointer;
+        }
+
+        .selected-container{
+            border-radius: 10px;
+            border: 2px solid hsl(26, 100%, 55%);
+            width: 100px;
+            height: 100px;
+        }
+
+        .selected-item{
+            
+            opacity: 20%;
+        }
+    }
+}

@@ -1,0 +1,83 @@
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: hsl(223, 9%, 85%);
+
+    margin: 30px 80px;
+    padding-bottom: 30px;
+
+    .nav-list{
+        display: flex;
+        align-items: center;
+
+        list-style: none;
+        gap: 20px;
+
+        .nav-item{
+            color: hsl(219, 9%, 45%);
+        }
+        
+
+        .nav-item:hover{
+            cursor: pointer;
+            color: black;
+            
+            .highlight{
+                border-bottom: 3px solid hsl(26, 100%, 55%);
+                
+                position: relative;
+                bottom: -48px;
+            }
+        }
+
+        .logo{
+            margin-right: 4dvh;
+        }
+    }
+
+    .user{
+        display: flex;
+        align-items: center;
+
+        list-style: none;
+        gap: 40px;
+
+        .icon:hover{
+            cursor: pointer;
+        }
+
+        .user-ava{
+            width: 50px;
+            height: auto;
+
+        }
+
+        .product-numbers{
+            position: absolute;
+            top: 38px;
+            right: 160px;
+
+            background-color:hsl(26, 100%, 55%);
+            color: white;
+
+            font-size: 12px;
+            
+            padding: 2px 8px;
+            border-radius: 10px;
+            height: 10px;
+
+            display: flex;
+            align-items: center;
+        }
+
+        .user-ava:hover{
+            border: 3px solid hsl(26, 100%, 55%);
+            border-radius: 100%;
+            cursor: pointer;
+        }
+    }
+}
